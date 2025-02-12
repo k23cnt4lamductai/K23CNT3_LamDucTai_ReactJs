@@ -5,6 +5,7 @@ export default class LdtCompA extends Component {
         super(props);
         this.state = {
             name: "Lâm Đức Tài",
+            
         };
     }
 
