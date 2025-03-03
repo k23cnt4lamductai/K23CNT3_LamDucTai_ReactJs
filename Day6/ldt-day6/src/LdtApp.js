@@ -4,7 +4,9 @@ import LdtEventForm2 from './components/LdtEventForm2'
 import LdtEventForm3 from './components/LdtEventForm3'
 import LdtEventForm4 from './components/LdtEventForm4'
 import LdtEventForm5 from './components/LdtEventForm5'
-
+import LdtRenderCondition from './components/LdtRenderCondition';
+import LdtRenderArray from './components/LdtRenderArray';
+import LdtRenderListObject from './components/LdtRenderListobject'
 
 export default class LdtApp extends Component {
   // Hàm xử lý dữ liệu từ form student
@@ -22,6 +24,11 @@ export default class LdtApp extends Component {
           <LdtEventForm3 />
           <LdtEventForm4 />
           <LdtEventForm5 onLdtHandleSubmit={this.ldtHandleSubmitForm} />
+
+          <LdtRenderCondition />
+          <LdtRenderArray />
+
+          <LdtRenderListObject />
       </div>
     )
   }
