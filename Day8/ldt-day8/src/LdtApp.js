@@ -9,7 +9,7 @@ class LdtApp extends Component {
     this.state = {
       LdtStudents:[
         {LdtId:"SV001",LdtStudentName:"Lâm Đức Tài",LdtAge:21,LdtGender:"Nam",LdtBirthday:"26/09/2005",LdtBirthPlace:"HN", LdtAddress:"Gia Lâm"},
-        {LdtId:"SV002",LdtStudentName:"Trần Thanh Tùng",LdtAge:23,LdtGender:"nam",LdtBirthday:"25/05/1979",LdtBirthPlace:"HP", LdtAddress:"Trung quốc"},
+        {LdtId:"SV002",LdtStudentName:"Trần Thanh Tùng",LdtAge:23,LdtGender:"Cam",LdtBirthday:"25/05/1979",LdtBirthPlace:"HP", LdtAddress:"Trung quốc"},
         {LdtId:"SV003",LdtStudentName:"Vũ Khánh Linh",LdtAge:20,LdtGender:"Nữ",LdtBirthday:"25/05/1985",LdtBirthPlace:"TpHCM", LdtAddress:"Trung Quốc"},
         {LdtId:"SV004",LdtStudentName:"Hà Quang Minh",LdtAge:22,LdtGender:"Nam",LdtBirthday:"25/05/1976",LdtBirthPlace:"TpHCM", LdtAddress:"Hồ chí minh"},
       ],
