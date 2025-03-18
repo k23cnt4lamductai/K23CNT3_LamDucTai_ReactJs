@@ -1,0 +1,96 @@
+body {
+
+  color: black;
+  text-align: center;
+}
+h1, h2 {
+  color: black;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: white;
+  color: black;
+}
+a {
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold; /* Làm đậm chữ */
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  border: 2px solid black; /* Viền đen trước khi hover */
+  color: black; /* Chữ đen để dễ đọc */
+  background-color: white; /* Nền trắng để chữ nổi bật */
+}
+
+a:hover {
+  transform: scale(1.1); /* Phóng to khi hover */
+  background-color: red; /* Đổi nền thành màu đỏ */
+  color: black; /* Chữ trắng để nổi bật trên nền đỏ */
+  border-color: yellow; /* Viền vàng khi hover */
+}
+
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+body {
+  background-color: #f4f7f8; /* Màu nền nhẹ nhàng */
+  font-family: 'Poppins', sans-serif;
+}
+
+form {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #ff6b6b, #ffb347);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff4757, #ff9f1a);
+}
